@@ -78,7 +78,7 @@ export default function Trophies() {
                     : 'text-slate-400 hover:text-white hover:bg-white/5'
                 }`}
               >
-                {year === 'All' ? 'All Trophies (10)' : `${year} Season`}
+                {year === 'All' ? `All Trophies (${athleteData.trophies.length})` : `${year} Season`}
               </button>
             ))}
           </div>
@@ -185,24 +185,26 @@ export default function Trophies() {
                     </span>
                   </div>
 
-                  {isChampion && (
-                    <span className="text-amber-400 font-bold flex items-center gap-1 text-[11px] group-hover:scale-105 transition-transform">
-                      <span>Click to Celebrate</span> 🎉
-                    </span>
-                  )}
+                  <div className="flex items-center gap-3">
+                    {isChampion && (
+                      <span className="text-amber-400 font-bold flex items-center gap-1 text-[11px] group-hover:scale-105 transition-transform">
+                        <span>Click to Celebrate</span> 🎉
+                      </span>
+                    )}
 
-                  {hasMedalImage && !isChampion && (
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setActiveModalItem(trophy);
-                      }}
-                      className="text-amber-400 font-bold hover:underline flex items-center gap-1 text-[11px]"
-                    >
-                      <span>Inspect Medal</span>
-                      <Maximize2 className="w-3 h-3" />
-                    </button>
-                  )}
+                    {hasMedalImage && (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveModalItem(trophy);
+                        }}
+                        className="text-amber-400 font-bold hover:underline flex items-center gap-1 text-[11px]"
+                      >
+                        <span>Inspect Medal</span>
+                        <Maximize2 className="w-3 h-3" />
+                      </button>
+                    )}
+                  </div>
                 </div>
 
               </div>

@@ -37,12 +37,15 @@ export const athleteData = {
     portfolioPdf2026: "/Velin Portofolio 2026.pdf",
     portfolioPdf2425: "/Portofolio Velin 24-25.pdf",
     medals: {
+      nbl2026: "/Medal and Certificate NBL 2026.png",
       lbe2026: "/Medal and Certificate LBE (lancar basketball event).png",
+      tuneUp3x3: "/Tune Up Game Ceritificate.jpeg",
+      nextgen2025: "/Medal and Certificate Nextgen 2025.png",
+      perbasi2025: "/Medal and Certificate Perbasi Cup 2025.png",
       rookie2025: "/Medal and Certificate Rookie 2025 KU 15.png",
       rookie2024: "/Medal and Certificate Rookie 2024.png",
       h7Tournament2025: "/Certificate H7 Tournaament 2025.png",
       tridharma2025: "/Certificate Tridharma Madiun Winter Cup 2025.png",
-      tuneUp3x3: "/Tune Up Game Ceritificate.jpeg",
     }
   },
 
@@ -69,7 +72,8 @@ export const athleteData = {
       badgeColor: "bg-amber-500/20 text-amber-400 border-amber-500/40",
       description: "Championship victory run defeating Juniors, Perbaspa, Nextgen, and Jethree in the grand final to take the gold medal and championship trophy.",
       medal: "Gold Medal & Trophy",
-      highlight: "🏆 1st Place Champion"
+      highlight: "🏆 1st Place Champion",
+      image: "/Medal and Certificate NBL 2026.png"
     },
     {
       id: "lbe-2026",
@@ -130,7 +134,8 @@ export const athleteData = {
       badgeColor: "bg-rose-500/20 text-rose-400 border-rose-500/40",
       description: "Podium finish in Surabaya competing against premier academies including Line Spartan, Blitz Jakarta, Merpati Bali, and Cougar Jakarta.",
       medal: "Bronze Trophy & Certificate",
-      highlight: "🥉 Inter-Club Surabaya"
+      highlight: "🥉 Inter-Club Surabaya",
+      image: "/Medal and Certificate Nextgen 2025.png"
     },
     {
       id: "h7-2025",
@@ -159,7 +164,8 @@ export const athleteData = {
       badgeColor: "bg-emerald-500/20 text-emerald-400 border-emerald-500/40",
       description: "Official Perbasi championship podium finish with trophy and medals after victories over Human and Greyhound.",
       medal: "Perbasi Cup Trophy & Medal",
-      highlight: "🥉 Perbasi Cup Podium"
+      highlight: "🥉 Perbasi Cup Podium",
+      image: "/Medal and Certificate Perbasi Cup 2025.png"
     },
     {
       id: "rookie-2025",
@@ -725,10 +731,10 @@ export const athleteData = {
       subtitle: "Theadora Adeline Valerina official ID card photograph."
     },
     {
-      src: "/Tune Up Game Ceritificate.jpeg",
-      title: "3x3 Certificate of Sport",
+      src: "/Medal and Certificate NBL 2026.png",
+      title: "NBL 2026 Juara 1 Gold Medal & Piagam",
       tag: "Awards",
-      subtitle: "Awarded by FISIP Universitas Brawijaya for standing achievement in KU-14 Girls."
+      subtitle: "Juara 1 Gold Medal and official Piagam Penghargaan from Nusantara Basketball League 2026 in Blitar."
     },
     {
       src: "/Medal and Certificate LBE (lancar basketball event).png",
@@ -737,16 +743,28 @@ export const athleteData = {
       subtitle: "Juara 3 Bronze Medal and official certificate of achievement from Lancar Basketball Event Yogyakarta."
     },
     {
+      src: "/Tune Up Game Ceritificate.jpeg",
+      title: "3x3 Certificate of Sport",
+      tag: "Awards",
+      subtitle: "Awarded by FISIP Universitas Brawijaya for standing achievement in KU-14 Girls."
+    },
+    {
+      src: "/Medal and Certificate Nextgen 2025.png",
+      title: "Cleo Nextgen Cup 2025 Bronze Medal & Certificate",
+      tag: "Awards",
+      subtitle: "Juara 3 Bronze Medal and official Piagam Kejuaraan from Cleo Nextgen Student League Cup in Surabaya."
+    },
+    {
+      src: "/Medal and Certificate Perbasi Cup 2025.png",
+      title: "Perbasi Cup Kota Malang 2025 Bronze Medal & Piagam",
+      tag: "Awards",
+      subtitle: "Juara 3 Bronze Medal and official certificate of achievement from Perbasi Cup Kota Malang 2025."
+    },
+    {
       src: "/Medal and Certificate Rookie 2025 KU 15.png",
       title: "Rookie Fun Basketball 2025 3rd Winner Medal & Award",
       tag: "Awards",
       subtitle: "Juara 3 bronze medal and Piagam Penghargaan for KU-15 Putri at Unggul Sports Center Malang."
-    },
-    {
-      src: "/Medal and Certificate Rookie 2024.png",
-      title: "Rookie Fun Basketball 2024 Runner Up Silver Medal",
-      tag: "Awards",
-      subtitle: "Juara 2 Silver Medal and official certificate of achievement from Rookie Fun Basketball 2024."
     },
     {
       src: "/Certificate H7 Tournaament 2025.png",
@@ -759,6 +777,12 @@ export const athleteData = {
       title: "Tridharma Winter Cup Madiun 2025 Certificate",
       tag: "Awards",
       subtitle: "Finalist certificate presented by Perbasi Kota Madiun at Tridharma Winter Cup."
+    },
+    {
+      src: "/Medal and Certificate Rookie 2024.png",
+      title: "Rookie Fun Basketball 2024 Runner Up Silver Medal",
+      tag: "Awards",
+      subtitle: "Juara 2 Silver Medal and official certificate of achievement from Rookie Fun Basketball 2024."
     },
     {
       src: "/LANCAR SUMMER LEAGUE 2026-2.jpg",
